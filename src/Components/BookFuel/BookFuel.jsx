@@ -1,8 +1,8 @@
 import React from 'react'
-import Navbars from '/src/Components/HomePage/Navbar/Navbars'
-import Order from '/src/Components/BookFuel/Order/Order'
-import Payment from './Order/pages/Payment'
-import Success from './BookSuccess/Success'
+import Navbars from '/src/Components/HomePage/Navbar/Navbars.jsx'
+import Order from '/src/Components/BookFuel/Order/Order.jsx'
+import Payment from './Order/pages/Payment.jsx'
+import Success from './BookSuccess/Success.jsx'
 
 const BookFuel = () => {
   return (
