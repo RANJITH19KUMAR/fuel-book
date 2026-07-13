@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import Navbars from "../Components/HomePage/Navbar/Navbars";
-import Footer from '../Components/HomePage/Footer/Footer.jsx'
+import Navbars from "../HomePage/Navbar/Navbars.jsx";
+import Footer from '../HomePage/Footer/Footer.jsx'
 import { Navigate, useNavigate } from "react-router-dom";
 
 const Service = () => {

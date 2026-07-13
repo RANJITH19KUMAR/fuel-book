@@ -1,20 +1,20 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
 
-import Landing from '/src/Components/Landing'
-import BookFuel from '/src/Components/BookFuel/BookFuel'
-import Success from '/src/Components/BookFuel/BookSuccess/Success'
-import Login from '/src/Components/HomePage/Login/Login'
-import LoginSelection from '/src/Components/HomePage/Login/LoginSelection'
-import Signup from '/src/Components/HomePage/Login/SignUpPage'
-import SignupPage from '/src/Components/HomePage/Login/SignUpPage'
-import DeliveryComplete from '/src/Components/TrackOrder/Delivery/DeliveryComplete'
-import DriverArrived  from '/src/Components/TrackOrder/Driver/DriverArrived'
-import Review from '/src/Components/TrackOrder/Review/Review'
-import TrackOrder from '/src/Components/TrackOrder/TrackOrder'
-import About from '/src/Components/HomePage/AboutPage.jsx/About'
-import Service from '/src/ServicePage/Service'
-import Support from '/src/Components/SupporetPage/Support'
+import Landing from "./Components/Landing.jsx";
+import BookFuel from './Components/BookFuel/BookFuel.jsx'
+import Success from './Components/BookFuel/BookSuccess/Success.jsx'
+import Login from './Components/HomePage/Login/Login.jsx'
+import LoginSelection from './Components/HomePage/Login/LoginSelection.jsx'
+import Signup from './Components/HomePage/Login/SignUpPage.jsx'
+import SignupPage from './Components/HomePage/Login/SignUpPage.jsx'
+import DeliveryComplete from './Components/TrackOrder/Delivery/DeliveryComplete.jsx'
+import DriverArrived  from './Components/TrackOrder/Driver/DriverArrived.jsx'
+import Review from './Components/TrackOrder/Review/Review.jsx'
+import TrackOrder from './Components/TrackOrder/TrackOrder.jsx'
+import About from "./Components/HomePage/AboutPage/About.jsx"
+import Service from "./Components/ServicePage/Service.jsx";
+import Support from './Components/SupporetPage/Support.jsx'
 
 //  import Login from './Components/login/Login'
 
