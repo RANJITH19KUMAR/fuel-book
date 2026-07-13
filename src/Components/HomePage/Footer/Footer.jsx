@@ -5,9 +5,9 @@ import '/src/Components/HomePage/Footer/Footer.css'
 // Import images properly
 import visa from '/src/assets/visa.png'
 import mastercard from '/src/assets/mastercard.png'
-import upi from "../../../assets/upi.png";
+import upi from "../../../assets/UPI.png";
 import gpay from '/src/assets/gpay.png'
-import paytm from '/src/assets/gpay.png'
+import paytm from '/src/assets/paytm.png'
 import phonepe from '/src/assets/phonepe.png'
 
 function Footer() {
