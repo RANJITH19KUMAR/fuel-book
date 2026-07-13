@@ -1,0 +1,19 @@
+.quality-first{
+    padding: 5px;
+}
+.quality-first h5{
+    font-size: 15px;
+}
+.quality-first p{
+    font-size: 13px;
+}
+.customer-support{
+    font-size: 12px;
+    
+}
+.icons{
+    color: #ff6b00;
+}
+.choose-section{
+    animation: sildeRight 1s ease;
+}

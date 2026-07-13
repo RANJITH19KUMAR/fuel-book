@@ -1,0 +1,29 @@
+.footer {
+  /* background: #1f2937; */
+  /* background: #fbbf24; */
+  background: #0f172a;
+  border: none;
+  border-radius: 10px;
+}
+.fast-fuel{
+    color:  #ff6a00;
+}
+.icons{
+    cursor: pointer;
+}
+.icon{
+    color: #ff6a00;
+}
+
+.footer-link {
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.final{
+    color: #ff6a00;
+}

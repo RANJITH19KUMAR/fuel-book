@@ -1,0 +1,124 @@
+.customer-section{
+    background:#fff;
+}
+
+.customer-section h2{
+    font-size:48px;
+    font-weight:700;
+}
+
+.customer-section span{
+    color:#ff6b00;
+}
+
+.testimonial-card{
+    background:#fff;
+    border-radius:18px;
+    padding:22px;
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+
+    border:1px solid #efefef;
+
+    box-shadow:
+    0 6px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+    height:210px;
+}
+
+.testimonial-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+    0 12px 28px rgba(0,0,0,.12);
+
+}
+
+.user-img{
+
+    width:82px;
+    height:82px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.content{
+
+    flex:1;
+}
+
+.stars{
+
+    color:#ff9f00;
+    font-size:18px;
+    letter-spacing:2px;
+    margin-bottom:10px;
+}
+
+.content p{
+
+    color:#555;
+    font-size:15px;
+    line-height:1.7;
+    min-height:75px;
+    margin-bottom:15px;
+}
+
+.content h5{
+
+    margin:0;
+    font-size:20px;
+    font-weight:700;
+}
+
+.content span{
+
+    color:#999;
+    font-size:15px;
+}
+
+/* Navigation */
+
+.swiper-button-next,
+.swiper-button-prev{
+
+    width:35px;
+    height:35px;
+    background:#fff;
+
+    border-radius:50%;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.15);
+    color:#222;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+
+    font-size:16px;
+    font-weight:bold;
+}
+
+/* Pagination */
+
+.swiper-pagination{
+
+    margin-top:30px;
+    position:relative;
+}
+
+.swiper-pagination-bullet{
+
+    width:11px;
+    height:11px;
+    background:#ccc;
+    opacity:1;
+}
+
+.swiper-pagination-bullet-active{
+
+    background:#ff6b00;
+}

@@ -1,0 +1,98 @@
+.login-page{
+     background: url('../../../assets/success/bookBg.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.login-form h4{
+    font-size: 28px;
+    font-weight: 600;
+}
+.login-form p{
+    font-size: 12px;
+}
+.login-form i{
+    color: #ff6a00;
+
+}
+.login-form label{
+    font-size: 17px;
+    
+}
+.email-input{
+    position: relative;
+    width: 90%;
+}
+.email-input .form-control{
+    padding-left: 40px;
+}
+.email-input .email-icon{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+    font-size: 18px;
+    pointer-events: none;
+}
+.form-check {
+    font-size: 15px;
+}
+
+.form-check label{
+    font-size: 12px;
+}
+.form-login a{
+    font-size: 12px;
+    color: black;
+    cursor: pointer;
+}
+
+.login-butn{
+    width: 70%;
+    background: white;
+    border: none;
+}
+
+.login-butn:hover{
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 4px  #ffe7d6;
+    transform: translateY(-3px);
+    transition: .3s ease;
+}
+.login-form p{
+    font-size: 12px;
+}
+.google-btn{
+    font-size: 14px;
+    
+    background-color: white;
+    width: 70%;
+    padding: 5px;
+    border: none;
+}
+.google-btn img{
+    align-items: center;
+    padding-bottom: 2px;
+    padding-right: 2px;
+}
+.google-btn:hover{
+     background-color: #ff6a00;
+   
+    transform: translateY(-3px);
+    transition: .3s;
+   
+}
+.login-form span{
+    color: #ff6a00;
+    cursor: pointer;
+}
+.back-home:hover{
+    cursor: pointer;
+    color: #ff6a00;
+    transform: translateX(-2px);
+}

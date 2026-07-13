@@ -1,0 +1,36 @@
+
+.role-page{
+    
+    background: url('../../../assets/success/bookBg.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+    animation: pageFade .8s ease;
+}
+
+.role-page {
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.role-card {
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+button.rounded-circle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

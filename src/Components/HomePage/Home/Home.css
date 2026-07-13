@@ -1,0 +1,42 @@
+.s1{
+    color: #ff6a00;
+}
+.icon1{
+    color: #ff6a00;
+    background-color: #f8f9fa;
+}
+
+
+.hero-btn{
+    /* width: 50px; */
+    text-align: center;
+    color: black;
+    margin: 10px;
+    background-color: #fff;
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 185px;
+    
+}
+.hero-btn{
+    background-color: #ff6a00;
+    color: white;
+}
+.hero-btn1{
+    text-align: center;
+    color:black;
+    margin: 10px;
+    background-color: #fff;
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 185px;
+}
+.hero-btn1 :hover{
+    background-color: #ff6a00;
+    color: white;
+}

@@ -1,0 +1,48 @@
+.price-section{
+    background-color: rgb(252, 252, 252);
+}
+
+.price-section h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+.price-section p{
+    font-size: 13px;
+}
+.price-detail{
+    border: 2px solid rgb(36, 221, 36);
+    background-color: white;
+    padding: 5px;
+    padding-top: 10px;
+}
+.price-logo{
+      margin-left: 90px;
+      width: 40px;
+}
+.liter-let{
+    font-size: 8px;
+}
+#fire-let  ,#fire-price{
+    color: #ff6b00;
+}
+.fuel-p{
+    color: #ff6b00;
+}
+.price-detail p{
+    font-size: 12px;
+}
+
+#price-detail{
+    border: 2px solid rgb(28, 193, 243);
+}
+#price-detail1{
+    border: 2px solid orange;
+}
+.update-btn{
+    width: 60px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 60px;
+    border: none;
+}

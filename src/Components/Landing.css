@@ -1,0 +1,31 @@
+.Landing-page{
+    animation: pageFade .8s ease;
+}
+
+@keyframes pageFade{
+    from{
+        opacity:0;
+        transform:translateY(25px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.Landing-page .col-md-4,
+.Landing-page .col-md-6,
+.Landing-page .col-md-12{
+    animation: slideUp .8s ease;
+}
+
+@keyframes slideUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}

@@ -1,0 +1,76 @@
+.success-page{
+    align-items: center;
+}
+
+.success-page{
+    font-size: 12px;
+}
+.top-content i{
+    font-size: 70px;
+   color: rgb(150, 214, 53);
+  
+   border-radius: 50%;
+}
+.top-content h2{
+    font-size: 18px;
+}
+.top-content p{
+    font-size: 12px;
+}
+.order-id {
+    border: none;
+    display: flex;
+    margin: 0 54px;
+    flex-direction: row;
+    padding: 0 20px;
+    color: #ff6a00;
+    background-color: #fff8f2 ;
+}
+.order-id :hover{
+    cursor: pointer;
+}
+.live-btn{
+    border: none;
+    color:rgb(86, 190, 0);
+    font-weight: 500;
+    background-color: rgb(215, 243, 234);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.live-btn :hover{
+
+    transition: .3s ;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.2);
+}
+.live-btn :active{
+    transform: scale(0.9);
+    box-shadow: none;
+}
+
+.foot-btn{
+    transition: .35s;
+    border: none;
+    color: black;
+}
+.foot-btn .active{
+  color: #fff;
+  background-color: #ff6a00;
+    transform:scale(1.04);
+
+    box-shadow:0 8px 18px rgba(255,90,31,.25);
+    
+}
+.foot-btn :hover{
+   transform:translateY(-4px);
+   background-color: #ff6a00;
+    border: none;
+    color: #fff;
+    box-shadow:0 10px 20px rgba(255,90,31,.18);
+}
+
+.success-card h5{
+    font-size: 14px;
+    align-items: center;
+}

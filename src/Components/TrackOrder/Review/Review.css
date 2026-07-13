@@ -1,0 +1,179 @@
+body {
+  background: #f5f6f8;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.page-bg {
+  background: #f5f6f8;
+  min-height: 100vh;
+}
+
+.header {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.brand {
+  color: #ff6a00;
+  font-weight: 700;
+}
+
+.nav-links span {
+  margin: 0 12px;
+  cursor: pointer;
+  color: #555;
+}
+
+.user {
+  font-weight: 500;
+}
+
+.back {
+  color: #ff6a00;
+  cursor: pointer;
+}
+
+.card-box {
+  border-radius: 12px;
+  border: none;
+}
+
+.star {
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+.category-box {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  background: linear-gradient(90deg, #ff7a00, #ff4d00);
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.review-item {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.feature-row {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+.card-box {
+  border-radius: 12px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.star {
+  cursor: pointer;
+  margin-right: 6px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.star:hover {
+  transform: scale(1.2);
+}
+
+
+.category-box {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+}
+
+.category-box:hover {
+  background: #fff3eb;
+  transform: translateX(5px);
+}
+
+
+.submit-btn {
+  background: linear-gradient(90deg, #ff7a00, #ff4d00);
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(90deg, #ff4d00, #ff7a00);
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(255, 100, 0, 0.3);
+}
+
+.nav-links span {
+  margin: 0 12px;
+  cursor: pointer;
+  color: #555;
+  transition: all 0.2s ease;
+}
+
+.nav-links span:hover {
+  color: #ff6a00;
+  border-bottom: 2px solid #ff6a00;
+}
+
+.review-item {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.review-item:hover {
+  background: #fafafa;
+  padding-left: 8px;
+}
+
+.feature-row {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.feature-row .col {
+  transition: all 0.3s ease;
+}
+
+.feature-row .col:hover {
+  color: #ff6a00;
+  transform: translateY(-3px);
+}
+
+
+.back {
+  color: #ff6a00;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back:hover {
+  text-decoration: underline;
+  transform: translateX(-3px);
+}

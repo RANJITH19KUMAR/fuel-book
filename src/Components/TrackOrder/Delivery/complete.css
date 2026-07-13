@@ -1,0 +1,9 @@
+.delivery-page{
+    
+    background: url('../../../assets/success/bookBg.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: pageFade .8s ease;
+}
