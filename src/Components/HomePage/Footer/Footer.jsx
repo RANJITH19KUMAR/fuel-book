@@ -28,7 +28,7 @@ function Footer() {
             </p>
 
             <div className=" icons d-flex gap-3 mt-3 text-white fs-5">
-              <img src="/src/assets/logo/google.webp" alt="google" width={20} height={20} />
+              <img src="/src/assets/logo/google.webp" alt= " google" width={20} height={20} />
              <img src="/src/assets/logo/X.webp" alt="google" width={20} height={20} />
              <img src="/src/assets/logo/fb.webp" alt="google" width={20} height={20} />
              <img src="/src/assets/logo/insta.webp" alt="google" width={20} height={20} />
