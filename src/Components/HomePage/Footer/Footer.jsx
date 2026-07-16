@@ -5,7 +5,7 @@ import '/src/Components/HomePage/Footer/Footer.css'
 // Import images properly
 import visa from "../../../assets/visa.png";
 import mastercard from "../../../assets/mastercard.png";
-import upi from "../../../assets/UPI.png";
+import upi from "../../../assets/upi.png";
 import gpay from "../../../assets/gpay.png";
 import paytm from "../../../assets/paytm.png";
 import phonepe from "../../../assets/phonepe.png";

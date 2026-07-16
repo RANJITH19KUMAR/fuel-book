@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Order.css'
-import upi from '/src/assets/UPI.png'
+import upi from "../../../assets/upi.png";
 // import{faCar, faMotorCycle,faTaxi,faTruck} from '@fortawesome/free-solid-svg-icons';
 import {Container,Row,Col,Form,Button} from 'react-bootstrap/esm/'
 import { Prev } from 'react-bootstrap/esm/PageItem';
