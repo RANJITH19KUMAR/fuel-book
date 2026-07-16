@@ -3,12 +3,19 @@ import { Container, Row, Col } from 'react-bootstrap'
 import '/src/Components/HomePage/Footer/Footer.css'
 
 // Import images properly
-import visa from '/src/assets/visa.png'
-import mastercard from '/src/assets/mastercard.png'
-import upi from "/src/assets/UPI.png";
-import gpay from '/src/assets/gpay.png'
-import paytm from '/src/assets/paytm.png'
-import phonepe from '/src/assets/phonepe.png'
+import visa from "../../../assets/visa.png";
+import mastercard from "../../../assets/mastercard.png";
+import upi from "../../../assets/UPI.png";
+import gpay from "../../../assets/gpay.png";
+import paytm from "../../../assets/paytm.png";
+import phonepe from "../../../assets/phonepe.png";
+
+
+import google from "../../../assets/logo/google.webp";
+import x from "../../../assets/logo/X.webp";
+import fb from "../../../assets/logo/fb.webp";
+import insta from "../../../assets/logo/insta.webp";
+import linkedin from "../../../assets/logo/linkedin.webp";
 
 function Footer() {
   return (
@@ -28,11 +35,11 @@ function Footer() {
             </p>
 
             <div className=" icons d-flex gap-3 mt-3 text-white fs-5">
-              <img src="/src/assets/logo/google.webp" alt= " google" width={20} height={20} />
-             <img src="/src/assets/logo/X.webp" alt="google" width={20} height={20} />
-             <img src="/src/assets/logo/fb.webp" alt="google" width={20} height={20} />
-             <img src="/src/assets/logo/insta.webp" alt="google" width={20} height={20} />
-             <img src="/src/assets/logo/linkedin.webp" alt="google" width={20} height={20} />
+            <img src={google} width={20} height={20} />
+<img src={x} width={20} height={20} />
+<img src={fb} width={20} height={20} />
+<img src={insta} width={20} height={20} />
+<img src={linkedin} width={20} height={20} />
             </div>
           </Col>
 
