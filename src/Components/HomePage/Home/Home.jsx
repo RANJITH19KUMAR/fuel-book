@@ -2,6 +2,7 @@ import React from 'react'
 import '/src/Components/HomePage/Home/Home.css'
 import {Container,Row,Col,Button,} from 'react-bootstrap/esm/'
 import Navbars from '../Navbar/Navbars'
+import bike from '../../../assets/bike_img.png'
 import { useNavigate } from 'react-router-dom'
 
 function Home () {
@@ -44,7 +45,7 @@ function Home () {
         </Col>
         
           <Col md={6}>
-          <img  className='img-home img-fluid' src="/src/assets/bike_img.png" alt="delivery" />
+          <img  className='img-home img-fluid' src={bike} alt="delivery" />
           </Col>
        
       </Row>
