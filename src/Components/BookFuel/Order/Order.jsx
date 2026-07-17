@@ -45,16 +45,16 @@ const navigate = useNavigate();
         <div className='row'>
           <div className='col-md-7'>
         <h5 className='fs-6 text-start ms-2'>1. Select Fuel Type</h5>
-        <div className=' d-flex gap-2 pt-3 ms-3'>
-        <button className= {`fuel-btn rounded ${fueltype === 'petrol' ? 'active' : ''}`} onClick={() => setFuel('petrol')}> Petrol</button>
+        <div className=' d-flex gap-2 pt-3 ms-2 mb-1'>
+        <button className= {`fuel-btn rounded ${fueltype === 'petrol' ? 'active' : ''} `} onClick={() => setFuel('petrol')}> Petrol</button>
         <button className= {`fuel-btn rounded ${fueltype === 'diesel' ? 'active' : ''} `} 
         onClick={() => setFuel('diesel')}>Diesel</button>
        </div>
 
        {/*  2. Select your Vehicle Type */}
-       <h5 className="fs-6 text-start mb-4">2. Select your Vehicle Type</h5>
+       <h5 className="fs-6 text-start mb-3">2. Select your Vehicle Type</h5>
 
-  <div className="vehicle-wrapper d-flex gap-3">
+  <div className="vehicle-wrapper d-flex gap-2">
 
     <button className= {` vehicle-btn d-flex rounded  ${vehicle=== 'Car' ? 'active' : ''}`} onClick={()=> setVehicle('Car')}>  <i className="bi bi-car-front-fill"></i>Car</button>
     <button className= {` vehicle-btn d-flex rounded  ${vehicle=== 'Bike' ? 'active' : ''}`} onClick={()=> setVehicle('Bike')}>  <i className="bi bi-scooter"></i>Bike</button>
@@ -86,7 +86,7 @@ const navigate = useNavigate();
 {/* 5.Payment method*/}
 <div>
  <h4 className='fs-6 text-start ms-2 '>5. Choose Payment Method</h4>
-        <div className=' ms-4 d-flex gap-3 pt-3 ms-3 '>
+        <div className=' ms-2 d-flex gap-3 pt-3 '>
           <button className={`payment-btn rounded bg-white  ${ payment === 'UPI' ? 'active' : ''}`} onClick={()=> setPayment('UPI')}> <img src={upi} width={55} alt="upi" className='pt-2 '/>UPI</button>
            <button className={`payment-btn rounded bg-white px-4 ${ payment === 'Card' ? 'active' :''}`} onClick={() => setPayment('Card')}><i className="bi bi-credit-card p-2"></i>Card</button>
             <button className={`payment-btn rounded bg-white px-4 ${payment === 'Cash' ? 'active' :''}`} onClick={() => setPayment('Cash')}><i className="bi bi-cash-stack p-2"></i>Cash</button>
@@ -133,7 +133,7 @@ const navigate = useNavigate();
        </div>
 
        {/* Right Side Summary */}
-       <div className='book-summary col-md-4 mb-3 rounded shadow '>
+       <div className='book-summary col-md-3 mb-3 rounded shadow '>
         <h5 className='text-center pt-3'>Booking Summary</h5>
         <p  className='fs-6 fw-semibold pt-3 ms-5 '>Fuel Type: <span className='text-success '>{fueltype}</span> </p>
         <p  className='fs-6 fw-semibold ms-5 '>Vehicle: <span className='text-success '>{vehicle}</span></p>
