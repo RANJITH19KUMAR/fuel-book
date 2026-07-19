@@ -28,11 +28,11 @@ function Work  ()  {
       <Col md={1} >
       <i className="icon1 bi bi-truck fs-1 p-3  rounded-circle"></i>
       </Col>
-      <Col md={3} className='co1'>
+      {/* <Col md={3} className='co1'>
       
       <h4 className='fs-6 fw-bold text-start ms-3'><span className=' span1 badge  rounded-pill ps-2 mx-1'>3</span>Get Delivered</h4>
       <p className='text-muted small pt-1 text-start ms-4'>We deliver fuel to you quickely and safely</p>
-      </Col>
+      </Col> */}
       </div>
     </Row>
     </Container>
