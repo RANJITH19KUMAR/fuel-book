@@ -137,11 +137,11 @@ const navigate = useNavigate();
        {/* Right Side Summary */}
        <div className='book-summary col-md-4 mb-3 rounded shadow '>
         <h5 className='text-center pt-3'>Booking Summary</h5>
-        <p  className='fs-6 fw-semibold pt-3 ms-5 '>Fuel Type: <span className='text-success '>{fueltype}</span> </p>
-        <p  className='fs-6 fw-semibold ms-5 '>Vehicle: <span className='text-success '>{vehicle}</span></p>
-        <p  className='fs-6 fw-semibold ms-5 '>Quantity: <span className='text-success '>{quantity}</span></p>
-        <p  className='fs-6 fw-semibold ms-5'>Price/ Liter: <span className='text-success '>{totalprice}</span></p>
-        <p  className='fs-6 fw-semibold ms-5'>Estimated Time:<span className='text-success'> 20 Minutes</span></p>
+        <p  className='fs-6 fw-semibold pt-3 ms-4 '>Fuel Type: <span className='text-success '>{fueltype}</span> </p>
+        <p  className='fs-6 fw-semibold ms-4 '>Vehicle: <span className='text-success '>{vehicle}</span></p>
+        <p  className='fs-6 fw-semibold ms-4 '>Quantity: <span className='text-success '>{quantity}</span></p>
+        <p  className='fs-6 fw-semibold ms-4'>Price/ Liter: <span className='text-success '>{totalprice}</span></p>
+        <p  className='fs-6 fw-semibold ms-4'>Estimated Time:<span className='text-success'> 20 Minutes</span></p>
       <div className=' pt-2 d-flex justify-content-between text-center rounded shadow p-2'>
         <h6 className='pt-1'>Total Price : <span className='total-price'> {totalprice}</span></h6>
         <button className='order-btn rounded shadow ' onClick={() => navigate('/booking-success')}>Book Now</button>
