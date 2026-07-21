@@ -491,12 +491,33 @@
 .total-price{
     color: #ff6b00;
 }
-.book-summary{
-    height: 470px;
+.summary-card {
+  background: #fff;
 }
 
-.book-summary h5{
-  color: #ff5a1f;
-  text-decoration: underline;
-   
+/* Clean row layout */
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Sticky only for desktop */
+@media (min-width: 992px) {
+  .summary-card {
+    position: sticky;
+    top: 100px;
+  }
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+  .summary-card {
+    padding: 16px;
+  }
+
+  .summary-item {
+    font-size: 13px;
+  }
 }

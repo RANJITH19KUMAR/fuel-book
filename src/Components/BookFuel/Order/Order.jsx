@@ -134,21 +134,57 @@ const navigate = useNavigate();
         }
        </div>
 
-       {/* Right Side Summary */}
-       <div className='book-summary col-md-4 mb-3 rounded shadow '>
-        <h5 className='text-center pt-3'>Booking Summary</h5>
-        <p  className='fs-6 fw-semibold pt-3 ms-4 '>Fuel Type: <span className='text-success '>{fueltype}</span> </p>
-        <p  className='fs-6 fw-semibold ms-4 '>Vehicle: <span className='text-success '>{vehicle}</span></p>
-        <p  className='fs-6 fw-semibold ms-4 '>Quantity: <span className='text-success '>{quantity}</span></p>
-        <p  className='fs-6 fw-semibold ms-4'>Price/ Liter: <span className='text-success '>{totalprice}</span></p>
-        <p  className='fs-6 fw-semibold ms-4'>Estimated Time:<span className='text-success'> 20 Minutes</span></p>
-      <div className=' pt-2 d-flex justify-content-between text-center rounded shadow p-2'>
-        <h6 className='pt-1'>Total Price : <span className='total-price'> {totalprice}</span></h6>
-        <button className='order-btn rounded shadow ' onClick={() => navigate('/booking-success')}>Book Now</button>
-      </div>
-       <p className='text-center pt-3 '> <i className=" bi bi-shield-fill-check text-success fs-6 text-center  p-1"></i>Secure & Safe Payments.</p>
-      </div>
+      <div className='book-summary col-lg-4 col-md-12 mt-4 mt-lg-0'>
+  <div className='summary-card p-3 rounded shadow'>
 
+    <h5 className='text-center mb-3'>Booking Summary</h5>
+
+    <div className='summary-item'>
+      <span>Fuel Type</span>
+      <span className='text-success'>{fueltype}</span>
+    </div>
+
+    <div className='summary-item'>
+      <span>Vehicle</span>
+      <span className='text-success'>{vehicle}</span>
+    </div>
+
+    <div className='summary-item'>
+      <span>Quantity</span>
+      <span className='text-success'>{quantity} L</span>
+    </div>
+
+    <div className='summary-item'>
+      <span>Price / Liter</span>
+      <span className='text-success'>₹{pricePerLiter}</span>
+    </div>
+
+    <div className='summary-item'>
+      <span>Delivery Time</span>
+      <span className='text-success'>20 mins</span>
+    </div>
+
+    <hr />
+
+    <div className='d-flex justify-content-between align-items-center'>
+      <h6 className='mb-0'>Total</h6>
+      <h5 className='text-primary mb-0'>₹{totalprice}</h5>
+    </div>
+
+    <button 
+      className='order-btn w-100 mt-3'
+      onClick={() => navigate('/booking-success')}
+    >
+      Book Now
+    </button>
+
+    <p className='text-center mt-3 small text-muted'>
+      <i className="bi bi-shield-fill-check text-success me-1"></i>
+      Secure & Safe Payments
+    </p>
+
+  </div>
+</div>
 
         </div>
         </Col>
