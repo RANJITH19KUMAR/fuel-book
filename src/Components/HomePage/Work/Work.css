@@ -1,18 +1,20 @@
-.span1{
-    background-color: #ff6a00;
-    color: white;
+.work-card {
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s ease;
 }
-.icon1{
-    /* color: orangered; */
-    color: #ff6a00;
-    background-color: #f8f9fa;
-    
 
-    
+.work-card:hover {
+  transform: translateY(-8px);
 }
-.img1{
-     background-color: #f8f9fa;
-     border-radius: 50%;
-     margin-bottom: 10px;
 
+.icon1 {
+  background: #ff6a00;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.span1 {
+  background: #0d6efd;
 }
