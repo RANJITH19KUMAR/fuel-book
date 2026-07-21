@@ -135,7 +135,7 @@ const navigate = useNavigate();
        </div>
 
        {/* Right Side Summary */}
-       <div className='book-summary col-md-3 mb-3 rounded shadow '>
+       <div className='book-summary col-md-4 mb-3 rounded shadow '>
         <h5 className='text-center pt-3'>Booking Summary</h5>
         <p  className='fs-6 fw-semibold pt-3 ms-5 '>Fuel Type: <span className='text-success '>{fueltype}</span> </p>
         <p  className='fs-6 fw-semibold ms-5 '>Vehicle: <span className='text-success '>{vehicle}</span></p>
