@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './Order.css'
 import upi from "../../../assets/upi.png";
+import qr from "../../../assets/Orderimages/imagesQr.jpg"
+
 // import{faCar, faMotorCycle,faTaxi,faTruck} from '@fortawesome/free-solid-svg-icons';
 import {Container,Row,Col,Form,Button} from 'react-bootstrap/esm/'
 import { Prev } from 'react-bootstrap/esm/PageItem';
@@ -52,20 +54,20 @@ const navigate = useNavigate();
        </div>
 
        {/*  2. Select your Vehicle Type */}
-       <h5 className="fs-6 text-start mb-3">2. Select your Vehicle Type</h5>
+       <h5 className="fs-6 text-start mb-3 pt-3">2. Select your Vehicle Type</h5>
 
   <div className="vehicle-wrapper d-flex gap-2">
 
-    <button className= {` vehicle-btn d-flex rounded  ${vehicle=== 'Car' ? 'active' : ''}`} onClick={()=> setVehicle('Car')}>  <i className="bi bi-car-front-fill"></i>Car</button>
-    <button className= {` vehicle-btn d-flex rounded  ${vehicle=== 'Bike' ? 'active' : ''}`} onClick={()=> setVehicle('Bike')}>  <i className="bi bi-scooter"></i>Bike</button>
-    <button className= {` vehicle-btn d-flex rounded  ${vehicle=== 'Auto' ? 'active' : ''}`} onClick={()=> setVehicle('Auto')}>  <i className="bi bi-taxi-front-fill"></i>Auto</button>
-    <button className= {` vehicle-btn d-flex rounded  ${vehicle=== 'Other' ? 'active' : ''}`} onClick={()=> setVehicle('Other')}>  <i className="bi bi-truck-front-fill"></i>Other</button>  
+    <button className= {` vehicle-btn  rounded  ${vehicle=== 'Car' ? 'active' : ''}`} onClick={()=> setVehicle('Car')}>  <i className="bi bi-car-front-fill"></i>Car</button>
+    <button className= {` vehicle-btn  rounded  ${vehicle=== 'Bike' ? 'active' : ''}`} onClick={()=> setVehicle('Bike')}>  <i className="bi bi-scooter"></i>Bike</button>
+    <button className= {` vehicle-btn  rounded  ${vehicle=== 'Auto' ? 'active' : ''}`} onClick={()=> setVehicle('Auto')}>  <i className="bi bi-taxi-front-fill"></i>Auto</button>
+    {/* <button className= {` vehicle-btn rounded  ${vehicle=== 'Other' ? 'active' : ''}`} onClick={()=> setVehicle('Other')}>  <i className="bi bi-truck-front-fill"></i>Other</button>   */}
 
   </div>
 
   {/*  3. Enter Delivery Location*/}
 <div className='location pt-4  '>
-   <h5 className='fs-6 text-start '>3. Enter Delivery Location</h5>
+   <h5 className='fs-6 text-start mb-3'>3. Enter Delivery Location</h5>
         <div className='location-input ms-3 '>  <i className="bi bi-geo-alt location-icon "></i>
       < Form.Control  placeholder='Enter location' /></div>
        <p className='pt-2 ms-3'>+ Use my current location</p>
@@ -98,7 +100,7 @@ const navigate = useNavigate();
         {payment == 'UPI' &&
         <div className='upi-method my-3 text-center rounded shadow '>
           <h5 className='pt-3'>Scan & Pay</h5>
-          <img src="/src/assets/Orderimages/imagesQr.jpg" alt="" className='img-fluid rounded' width={150}/>
+          <img src={qr} alt="" className='img-fluid rounded' width={150}/>
           <p className='fs-6 fw-semibold mt-2 text-primary'>UPI ID: fastfuel@upi</p>
           <button className='pay-btn  rounded m-3'>Pay Now</button>
         </div>
