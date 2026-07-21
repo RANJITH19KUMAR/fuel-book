@@ -88,7 +88,7 @@ const navigate = useNavigate();
 {/* 5.Payment method*/}
 <div>
  <h4 className='fs-6 text-start ms-2 '>5. Choose Payment Method</h4>
-        <div className=' ms-2 d-flex gap-3 pt-3 '>
+        <div className='  d-flex gap-3 pt-3 '>
           <button className={`payment-btn rounded bg-white  ${ payment === 'UPI' ? 'active' : ''}`} onClick={()=> setPayment('UPI')}> <img src={upi} width={55} alt="upi" className='pt-2 '/>UPI</button>
            <button className={`payment-btn rounded bg-white px-4 ${ payment === 'Card' ? 'active' :''}`} onClick={() => setPayment('Card')}><i className="bi bi-credit-card p-2"></i>Card</button>
             <button className={`payment-btn rounded bg-white px-4 ${payment === 'Cash' ? 'active' :''}`} onClick={() => setPayment('Cash')}><i className="bi bi-cash-stack p-2"></i>Cash</button>
