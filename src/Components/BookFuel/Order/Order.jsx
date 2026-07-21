@@ -40,7 +40,7 @@ const navigate = useNavigate();
   <Row>
     <h4 className='text-start ms-3'>Book Your Fast Fuel</h4>
     <p className=' text-muted text-start ms-5'><span className='text-danger fw-bold'>-----</span> Fast + Safe + 24/7 Fuel delivery at your step.</p>
-    <div className='text-start  ms-3 '>
+    {/* <div className='text-start  ms-3 '> */}
 
       {/* 1.  Select Fuel Type */}
         <Col md={12} className='pt-2 py-2'>
@@ -133,8 +133,8 @@ const navigate = useNavigate();
           <div className='cash-method alert alert-success mt-3'> *Cash will be collected after fuel delivery.</div>
         }
        </div>
-
-      <div className='book-summary col-lg-4 col-md-12 mt-4 mt-lg-0'>
+{/* Booking Summary */}
+      <div className='book-summary col-lg-4 col-md-12 mt-4 mt-lg-0 '>
   <div className='summary-card p-3 rounded shadow'>
 
     <h5 className='text-center mb-3'>Booking Summary</h5>
@@ -168,7 +168,7 @@ const navigate = useNavigate();
 
     <div className='d-flex justify-content-between align-items-center'>
       <h6 className='mb-0'>Total</h6>
-      <h5 className='text-primary mb-0'>₹{totalprice}</h5>
+      <h5 className='mb-0'>₹{totalprice}</h5>
     </div>
 
     <button 
@@ -189,7 +189,7 @@ const navigate = useNavigate();
         </div>
         </Col>
        
-</div>
+{/* </div> */}
        </Row>
    </Container>
   )
