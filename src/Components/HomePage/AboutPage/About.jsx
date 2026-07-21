@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import bike from '../../../assets/bike_img.png'
 import Counter from "./Counter"; 
 import Navbars from "../Navbar/Navbars";
 import Footer  from "../Footer/Footer";
@@ -23,7 +24,7 @@ const About = () => {
 
           <Col md={6} className="text-center">
             <img
-              src="/src/assets/bike_img.png"
+              src={bike}
               alt="fuel truck"
               className="img-fluid hero-img"
             />
